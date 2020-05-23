@@ -1,0 +1,108 @@
+body{
+	font-family: "Comic Neue";
+	font-size: 16px;
+	background-color: #ffffff;
+	color: #2D241E;
+}
+
+#header-nav{
+	background-color: #C2C5CC;
+	border: 2px solid #2D241E;
+	border-radius: 0;
+	left: 0;
+}
+.container > .navbar-brand{
+	color: #2D241E;
+	font-size: 1.2em;
+	font-weight: bold;
+	
+
+}
+a:hover {
+	color: #2D241E;
+	left: 0;
+
+}
+
+h1{
+	text-align: center;
+	margin: 20px auto 20px auto;
+	font-weight: bold;
+	font-size: 1.2em;
+	width: 100%;
+
+}
+
+
+.col-md-12, .col-sm-12, .col-xs-12{
+	text-align: justify;
+	font-weight: normal;
+	font-size: 16px;
+	margin: 20px auto;
+	position: absolute; 
+	left: 0;
+}
+p {
+	background-color: #C2C5CC;
+	padding: 10px;
+}
+
+
+#nav-list a {
+  color: #2D241E;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+  width: 100%;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+
+/*Media query - Dekstop - Tablet - Mobile*/
+
+@media only screen and (max-width: 1440px) and (min-width: 1023px){
+	#collapsable-nav{
+		display: none !important;
+	}
+	.container > .navbar-brand{
+		margin-left: 10px;
+	}
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 767px){
+	.visible-ms{
+	display: block !important;
+	}
+}
+
+@media only screen and (max-width: 768px) and (min-width: 320px){
+	#collapsable-nav{
+		background-color: #FFFFFF;
+		width: 100%;
+		top: 0;
+		bottom: 0;
+	}
+
+	/*hr{
+		color: #2D241E;
+	}*/
+
+	.divider{
+		width: auto;
+		border: 1px solid #2D241E;
+	}
+	#nav-list{
+		margin: 0px -15px !important;
+	}
+	.navbar-toggle{
+		border-color: #2D241E !important;
+	}
+	.navbar-default .navbar-toggle .icon-bar{
+		color: #2D241E;
+		background-color: #2D241E;
+	}
+
+}
